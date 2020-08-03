@@ -66,18 +66,16 @@ class Main extends React.Component {
             });
         }
         else {
-            clearInterval(this.intervalId);
-            this.intervalId = null;
-            this.setState({
-                paused: true,
-            });
+            this.pauseButton();
         }
     }
 
     pauseButton = () => {
         clearInterval(this.intervalId);
         this.intervalId = null;
-        this.paused = true;
+        this.setState({
+            paused: true,
+        });
     }
 
     faster = () => {
