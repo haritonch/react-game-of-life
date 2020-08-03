@@ -1,13 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;500;700;800');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #999;
+    font-family: 'Dosis', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cell {
+    display: inline-block;
+    border: 1px solid #ccc;
+    height: 15px;
+    width: 15px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.dead {
+    background-color: #000;
+}
+
+.alive {
+    background-color: white;
+}
+
+.cell:hover {
+    background-color: green;
+}
+
+.center {
+    margin: auto;
+    display: table;
+    margin-top: 10px;
+}
+
+.grid {
+    width: 150px;
+    line-height: 0;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1, h2, h3, h4, p {
+    color: black;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
 }
