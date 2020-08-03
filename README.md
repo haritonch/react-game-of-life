@@ -1,3 +1,7 @@
+Try it at [https://haritonch.github.io/react-game-of-life/](https://haritonch.github.io/react-game-of-life/) or follow the instructions below to run locally.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
