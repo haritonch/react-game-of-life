@@ -1,3 +1,5 @@
+This is a simple web app I wrote in order to learn reactjs.
+
 Try it at [https://haritonch.github.io/react-game-of-life/](https://haritonch.github.io/react-game-of-life/) or follow the instructions below to run locally.
 
 
